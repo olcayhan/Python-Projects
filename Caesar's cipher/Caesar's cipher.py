@@ -6,14 +6,20 @@ import random
 import re
 import sys
 
-#
+
 # Complete the 'caesarCipher' function below.
-#
 # The function is expected to return a STRING.
 # The function accepts following parameters:
 #  1. STRING s
 #  2. INTEGER k
-#
+
+
+
+#The first line contains the integer,n , the length of the unencrypted string.
+#The second line contains the unencrypted string,s .
+#The third line contains k, the number of letters to rotate the alphabet by.
+
+
 
 def caesarCipher(s, k):
    if k > 26:
